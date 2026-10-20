@@ -77,7 +77,7 @@ if mode == "🎬 Авто-монтаж довгого відео":
         "🎙️ З голосом диктора (Повний продакшен ElevenLabs)", 
         "🔇 Без голосу (Тільки відеоряд під трендову музику / меми)"
     ])
-        if st.button("✨ Змонтувати ролик"):
+    if st.button("✨ Змонтувати ролик"):
         need_eleven = "🎙️ З голосом" in video_variant
         
         if not api_key or not pexels_key or (need_eleven and not eleven_key):
