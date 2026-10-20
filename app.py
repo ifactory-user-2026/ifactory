@@ -202,5 +202,7 @@ if mode == "🎬 Авто-монтаж довгого відео":
                             try:
                                 os.remove(c)
                             except:
-                                pass 
+                                pass
+
+
                                 
